@@ -1,0 +1,126 @@
+<html>
+<head>
+<style>
+body{
+background-color:SkyBlue;
+}
+
+h1{
+position: absolute;
+left: 450px;
+}
+.zero{
+position:absolute;
+left:50px;
+top: 100px;
+}
+
+.first{
+position: absolute;
+left:0px;
+}
+
+.second{
+position: absolute;
+left:250px;
+}
+
+.third{
+position: absolute;
+left:500px;
+}
+
+.fourth{
+position: absolute;
+left:750px;
+}
+
+
+.container {
+position: relative;
+width: 400px;
+height: 200px;
+}
+
+.image {
+display: block;
+width: 200px;
+height: 400px;
+}
+
+.overlay {
+position: absolute;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+height: 400px;
+width: 200px;
+opacity: 0;
+transition: .5s ease;
+background-color: Tan;
+}
+
+.container:hover .overlay {
+opacity: 1;
+}
+
+.text {
+color: white;
+font-size: 20px;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+text-align: center;
+}
+
+</style>
+</head>
+<body class="bg">
+<strong>
+<h1>HOBBIES</h1>
+<div class="zero">
+<div class="first">
+<div class="container">
+  <img src="cycling.png" class="image">
+  <div class="overlay">
+    <div class="text">Cycling</div>
+  </div>
+</div>
+</div>
+
+<div class="second">
+<div class="container">
+  <img src="cooking.png" class="image">
+  <div class="overlay">
+    <div class="text">Cooking</div>
+  </div>
+</div>
+</div>
+
+
+<div class="third">
+<div class="container">
+  <img src="walking.png" class="image">
+  <div class="overlay">
+    <div class="text">Walking</div>
+  </div>
+</div>
+</div>
+
+
+<div class="fourth">
+<div class="container">
+  <img src="watching.png" class="image">
+  <div class="overlay">
+    <div class="text">Watching</div>
+  </div>
+</div>
+</div>
+</div>
+</strong>
+
+
+</body>
+</html>
